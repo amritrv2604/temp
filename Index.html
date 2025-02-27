@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPCS Global Flyer</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="ipcs-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gray-100 flex justify-center items-center min-h-screen relative">
+    <div class="container flex items-center justify-center space-x-8 p-8 bg-white rounded-lg shadow-lg relative">
+        <img src="ipcs-logo.png" alt="Logo" class="logo">
+        <img src="girl.png" alt="Girl" class="w-80 h-auto rounded-lg shadow-lg transform transition duration-500 hover:scale-105 float girl-image">
+        <div class="flyer bg-gradient-to-b from-green-500 to-white p-10 rounded-lg text-center shadow-lg">
+            <div class="title word-art mb-4">Your Future Starts Here!!</div>
+            <div class="subtitle text-xl font-bold text-gray-800 mb-4">Ready to make your dream <span class="text-green-600">CAREER?</span></div>
+            <ul class="programs space-y-4">
+                <li class="bg-green-700 text-white p-4 rounded-lg flex justify-between items-center">
+                    AI Integrated Digital Marketing
+                    <button onclick="enquireNow('AI Integrated Digital Marketing')" class="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition duration-300 transform hover:scale-110">Enquire Now</button>
+                </li>
+                <li class="bg-green-700 text-white p-4 rounded-lg flex justify-between items-center">
+                    Industrial Automation
+                    <button onclick="enquireNow('Industrial Automation')" class="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition duration-300 transform hover:scale-110">Enquire Now</button>
+                </li>
+                <li class="bg-green-700 text-white p-4 rounded-lg flex justify-between items-center">
+                    Software Testing
+                    <button onclick="enquireNow('Software Testing')" class="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition duration-300 transform hover:scale-110">Enquire Now</button>
+                </li>
+                <li class="bg-green-700 text-white p-4 rounded-lg flex justify-between items-center">
+                    Python & Data Science
+                    <button onclick="enquireNow('Python & Data Science')" class="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition duration-300 transform hover:scale-110">Enquire Now</button>
+                </li>
+                <li class="bg-green-700 text-white p-4 rounded-lg flex justify-between items-center">
+                    Data Analytics
+                    <button onclick="enquireNow('Data Analytics')" class="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition duration-300 transform hover:scale-110">Enquire Now</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
